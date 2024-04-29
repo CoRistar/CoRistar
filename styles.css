@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center */
+   }
+/* 
+.container {
+    height: 100vh;
+    align-items: flex-start; 
+    display: contents;
+} */
+
+/* <------Navbar------> */
+
+nav {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* First column for logo (twice the width), second for menu */
+    align-items: center;
+    width: 70%;
+    align-self: center;
+}
+
+nav,
+nav ul,
+nav ul li,
+nav ul li a {
+    font-family: 'Karla', sans-serif; /* Apply Karla font family to the navigation */
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Spread out the menu items */
+    
+}
+nav ul a {
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+}
+
+nav ul li a:hover {
+    color: black; /* Set text color to black on hover */
+    
+}
+
+nav ul li.box a:hover {
+    background-color: blueviolet;
+    color: white; /* Change text color on hover */
+    padding: 5px;
+   
+}
+
+.hero{
+    height: 80vh;
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  
+}
+
+.line {
+    border-bottom: 1px solid white;
+    width: 80px;
+    margin-right: 170px;
+    
+}
+
+.herotitle{
+    /* width: 40%; */
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 30px;
+    
+}
+
+h5 {
+    font-size: 15px;
+    font-family: 'Karla';
+    text-decoration: none;
+}
+
+.herocontent{
+    display: flex;
+    Font-size: 16px;   
+    flex-direction: column;
+    width: 40%;
+    padding-top: 120px;
+
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    padding-top: 120px;
+}
+
+.btn {
+    padding: 10px; 
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    /* cursor: pointer;  */
+  }
+  
+  .btn:hover {
+    background-color: white; 
+    color: hsl(256, 26%, 20%);
+  }
+
+.different {
+    width: 70%;
+    /* background-color: rgb(255, 196, 196); */
+    margin: 0 auto; /* Horizontally center the section */
+    padding: 20px; /* Add padding to provide space around the content */
+    overflow-y: auto;
+    height: 50vh;
+}
