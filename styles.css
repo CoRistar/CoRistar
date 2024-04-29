@@ -19,8 +19,9 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr; /* First column for logo (twice the width), second for menu */
     align-items: center;
-    width: 70%;
+    width: 78%;
     align-self: center;
+    height: 30px;
 }
 
 nav,
@@ -48,14 +49,15 @@ nav ul li a:hover {
 }
 
 nav ul li.box a:hover {
-    background-color: blueviolet;
+    background-color:hsl(270, 9%, 17%);
     color: white; /* Change text color on hover */
     padding: 5px;
+
    
 }
 
 .hero{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-color: hsl(256, 26%, 20%);
     display: flex;
@@ -66,7 +68,7 @@ nav ul li.box a:hover {
 
 .line {
     border-bottom: 1px solid white;
-    width: 80px;
+    width: 150px;
     margin-right: 170px;
     
 }
@@ -75,15 +77,10 @@ nav ul li.box a:hover {
     /* width: 40%; */
     font-family: 'DM Serif Display', serif;
     color: white;
-    font-size: 30px;
+    font-size:40px;
     
 }
 
-h5 {
-    font-size: 15px;
-    font-family: 'Karla';
-    text-decoration: none;
-}
 
 .herocontent{
     display: flex;
@@ -95,8 +92,8 @@ h5 {
 }
 
 .intro-image {
-    width: 100%;
-    max-width: 400px; 
+    width: 125%;
+    max-width: 500px; 
     height: auto;
     padding-top: 120px;
 }
