@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Horizontally center */
+    background: url('bg-pattern-how-we-work-desktop.svg');
    }
 /* 
 .container {
@@ -19,7 +20,7 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr; /* First column for logo (twice the width), second for menu */
     align-items: center;
-    width: 78%;
+    width: 80%;
     align-self: center;
     height: 30px;
 }
@@ -88,6 +89,7 @@ nav ul li.box a:hover {
     flex-direction: column;
     width: 40%;
     padding-top: 120px;
+    
 
 }
 
@@ -112,10 +114,43 @@ nav ul li.box a:hover {
   }
 
 .different {
-    width: 70%;
+    width: 100%;
     /* background-color: rgb(255, 196, 196); */
-    margin: 0 auto; /* Horizontally center the section */
-    padding: 20px; /* Add padding to provide space around the content */
-    overflow-y: auto;
-    height: 50vh;
+    margin: 0 auto; 
+    height: 140vh;
+}
+
+.contentsection {
+    width: 80%;
+    padding-top: 160px;
+    /* background-color: rgb(34, 230, 99); */
+    height: 60vh;
+    margin: 120px;
+}
+
+.linetwo {
+    border-bottom: 1px solid white;
+    width: 150px;
+    margin-right: 170px;
+}
+
+.contentsection h1 {
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-size:60px;
+}
+
+.grids{
+    display: flex;
+}
+
+.gridone{
+    color: hsl(0, 0%, 60%);
+    /* background-color: brown; */
+}
+
+.contentsection h3 {
+    color: hsl(270, 9%, 17%);
+    font-family: 'DM Serif Display', serif;
+    font-size:25px;
 }
