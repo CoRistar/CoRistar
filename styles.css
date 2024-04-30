@@ -117,14 +117,14 @@ nav ul li.box a:hover {
     width: 100%;
     /* background-color: rgb(255, 196, 196); */
     margin: 0 auto; 
-    height: 140vh;
+    height: 210vh;
 }
 
 .contentsection {
     width: 80%;
     padding-top: 160px;
     /* background-color: rgb(34, 230, 99); */
-    height: 60vh;
+    height: 90vh;
     margin: 120px;
 }
 
@@ -141,7 +141,9 @@ nav ul li.box a:hover {
 }
 
 .grids{
+    height: 400px;
     display: flex;
+    /* background-color: darkgreen; */
 }
 
 .gridone{
@@ -154,3 +156,51 @@ nav ul li.box a:hover {
     font-family: 'DM Serif Display', serif;
     font-size:25px;
 }
+
+.findmorebox {
+    /* width: 80%; */
+    padding: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: hsl(256, 26%, 20%);
+
+}
+
+.findmorebox h2{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size:50px;
+}
+
+footer {
+    background-image:url('images/bg-pattern-footer-desktop.svg') ;
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    height: 350px;
+}
+
+.aboveline {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+    height: 1px;
+}
+
+.footerline {
+    
+    border-bottom: 1px solid hsl(0, 0%, 60%);
+    width: 1045px;
+    padding-bottom: 1px;
+    margin-left: 130px;
+}
+
+
+
+.footergrids{
+    padding: 0px 130px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
